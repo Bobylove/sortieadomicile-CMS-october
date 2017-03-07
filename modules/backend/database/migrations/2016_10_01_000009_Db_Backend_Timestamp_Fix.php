@@ -36,6 +36,10 @@ class DbBackendTimestampFix extends Migration
             ->where('item', 'preferences')
             ->delete()
         ;
+
+
+
+        
     }
 
     public function down()

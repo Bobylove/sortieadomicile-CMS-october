@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Sortieadom Controller
+
+# Model Form Field configuration
+form: $/acme/blog/models/sortieadomcontroller/fields.yaml
+
+# Model Class name
+modelClass: Acme\Blog\Models\SortieadomController
+
+# Default redirect location
+defaultRedirect: acme/blog/sortieadomcontroller
+
+# Create page
+create:
+    title: Create Sortieadom Controller
+    redirect: acme/blog/sortieadomcontroller/update/:id
+    redirectClose: acme/blog/sortieadomcontroller
+
+# Update page
+update:
+    title: Edit Sortieadom Controller
+    redirect: acme/blog/sortieadomcontroller
+    redirectClose: acme/blog/sortieadomcontroller
+
+# Preview page
+preview:
+    title: Preview Sortieadom Controller
