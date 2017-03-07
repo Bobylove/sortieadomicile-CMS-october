@@ -1,4 +1,15 @@
+title = "Contact"
+url = "/contact"
+is_hidden = 0
 
+[genericForm]
+messages_success = "Your form was successfully submitted"
+messages_errors = "There were errors with your submission"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+==
 title = "contact"
 url = "/contact"
 layout = "default"
@@ -14,16 +25,5 @@ recaptcha_theme = "light"
 recaptcha_type = "image"
 recaptcha_size = "normal"
 
-{% component 'emptyForm' %}
 
-<form data-request="{{ __SELF__ }}::onFormSubmit">
-        {{ form_token() }}
-        <div id="{{ __SELF__ }}_forms_flash"></div>
-        <label for="name"></label>
-        <input type="text" id="name">
-        
-        <!-- SUBMIT BUTTON -->
-    </form>
-
-</>gerericForm
-
+{% component 'genericForm' %}

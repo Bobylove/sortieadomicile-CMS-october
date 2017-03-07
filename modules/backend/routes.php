@@ -12,6 +12,8 @@ App::before(function ($request) {
     /*
      * Other pages
      */
+    Route::get('/','Acme\Blog\Controllers\SortieadomController@getRecup');
+
     Route::group(['prefix' => Config::get('cms.backendUri', 'backend')], function () {
         Route::any('{slug}', 'Backend\Classes\BackendController@run')->where('slug', '(.*)?');
     });
@@ -28,5 +30,3 @@ App::before(function ($request) {
 
 
 });
-
-Route::get('/home','Backend\Classes\BackendController@getView');

@@ -1,0 +1,52 @@
+1488885971a:1:{s:8:"ajax.htm";a:10:{s:8:"fileName";s:8:"ajax.htm";s:7:"content";s:665:"title = "AJAX framework"
+url = "/demo/ajax"
+layout = "default"
+is_hidden = 0
+
+[reservationForm]
+==
+<?php
+function onTest()
+{
+    $value1 = input('value1');
+    $value2 = input('value2');
+    $operation = input('operation');
+
+    switch ($operation) {
+        case '+' :
+            $this['result'] = $value1 + $value2;
+            break;
+        case '-' :
+            $this['result'] = $value1 - $value2;
+            break;
+        case '*' :
+            $this['result'] = $value1 * $value2;
+            break;
+        default :
+            $this['result'] = $value1 / $value2;
+            break;
+    }
+}
+?>
+==
+{% component 'reservationForm' %}";s:5:"mtime";i:1488885366;s:6:"markup";s:33:"{% component 'reservationForm' %}";s:4:"code";s:520:"function onTest()
+{
+    $value1 = input('value1');
+    $value2 = input('value2');
+    $operation = input('operation');
+
+    switch ($operation) {
+        case '+' :
+            $this['result'] = $value1 + $value2;
+            break;
+        case '-' :
+            $this['result'] = $value1 - $value2;
+            break;
+        case '*' :
+            $this['result'] = $value1 * $value2;
+            break;
+        default :
+            $this['result'] = $value1 / $value2;
+            break;
+    }
+}";s:5:"title";s:14:"AJAX framework";s:3:"url";s:10:"/demo/ajax";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:15:"reservationForm";a:0:{}}}

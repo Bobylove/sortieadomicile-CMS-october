@@ -10,7 +10,7 @@ class Sortieadom extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'acme_blog_sortieadoms';
+    public $table = 'events';
 
     /**
      * @var array Guarded fields

@@ -1,29 +1,8 @@
 title = "home"
-url = "/"
+url = "/home"
 layout = "default"
 is_hidden = 0
 ==
-<table class="table table-bordered">
- <thead>
- <tr>
- <th>Date</th>
- <th>Thème</th>
- <th>Type</th>
- <th>Lieu</th>
- <th>Billet/repas</th>
- <th>Option * transport accompagné</th>
- </tr>
-   {% for user in users %}
- </thead> 
- <tbody>
- <tr>
- <th>{{users.description}}</th>
- <th>lalalala</th>
- <th>lalalal</th>
- <th>lalalal</th>
- <th>lalalaal</th>
- <th>lalalal</th>
- </tr>
-  {% endfor %}
- </tbody>
-</table>
+{% for users in user %}
+<p>{{users.prix}}</p>
+ {% endfor %}

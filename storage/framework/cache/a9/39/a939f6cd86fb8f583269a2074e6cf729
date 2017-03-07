@@ -1,0 +1,52 @@
+1488901226a:1:{s:18:"preinscription.htm";a:10:{s:8:"fileName";s:18:"preinscription.htm";s:7:"content";s:670:"title = "Preinscription"
+url = "/preinscription"
+layout = "default"
+is_hidden = 0
+
+[reservationForm]
+==
+<?php
+function onTest()
+{
+    $value1 = input('value1');
+    $value2 = input('value2');
+    $operation = input('operation');
+
+    switch ($operation) {
+        case '+' :
+            $this['result'] = $value1 + $value2;
+            break;
+        case '-' :
+            $this['result'] = $value1 - $value2;
+            break;
+        case '*' :
+            $this['result'] = $value1 * $value2;
+            break;
+        default :
+            $this['result'] = $value1 / $value2;
+            break;
+    }
+}
+?>
+==
+{% component 'reservationForm' %}";s:5:"mtime";i:1488885734;s:6:"markup";s:33:"{% component 'reservationForm' %}";s:4:"code";s:520:"function onTest()
+{
+    $value1 = input('value1');
+    $value2 = input('value2');
+    $operation = input('operation');
+
+    switch ($operation) {
+        case '+' :
+            $this['result'] = $value1 + $value2;
+            break;
+        case '-' :
+            $this['result'] = $value1 - $value2;
+            break;
+        case '*' :
+            $this['result'] = $value1 * $value2;
+            break;
+        default :
+            $this['result'] = $value1 / $value2;
+            break;
+    }
+}";s:5:"title";s:14:"Preinscription";s:3:"url";s:15:"/preinscription";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:15:"reservationForm";a:0:{}}}
