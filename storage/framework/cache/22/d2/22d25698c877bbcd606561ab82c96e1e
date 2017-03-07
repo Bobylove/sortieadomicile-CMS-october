@@ -1,0 +1,77 @@
+1488809276a:1:{s:11:"contact.htm";a:5:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:1162:"<div class="col-md-offset-4">
+  
+    <div class="container">
+
+	<h2 class="col-md-offset-2">Contactez nous!</h2>
+
+	<form method="post" class="well col-md-6">
+
+	<div class="form-group">
+		<label class="control-label" for="nom">Nom:</label>
+		<input type="text" class="form-control" id="nom" name="nom" required="required">	
+	</div>
+		
+   <div class="form-group">
+		<label class="control-label" for="prenom">Prenom:</label>
+		<input type="text" class="form-control" id="prenom" name="prenom" required="required">	
+	</div>
+		
+	<div class="form-group">
+		<label class="control-label" for="email">Email:</label>
+		<input type="email" class="form-control" id="email" name="email" required="required">	
+	</div>
+		
+	<div class="form-group">
+		<label class="control-label" for="numero">Numero:</label>
+		<input type="number" class="form-control" id="numero" name="numero" required="required">	
+	</div>
+	<div class="form-group">
+	<label class="control-label" for="message">Message:</label>
+    <textarea class="form-control" id="message" name="message"></textarea>
+    <button type="button" class="btn btn-primary">Primary</button>
+
+		
+	</form>
+	</div>
+</div>
+</div>
+
+@stop";s:5:"mtime";i:1488799255;s:6:"markup";s:1162:"<div class="col-md-offset-4">
+  
+    <div class="container">
+
+	<h2 class="col-md-offset-2">Contactez nous!</h2>
+
+	<form method="post" class="well col-md-6">
+
+	<div class="form-group">
+		<label class="control-label" for="nom">Nom:</label>
+		<input type="text" class="form-control" id="nom" name="nom" required="required">	
+	</div>
+		
+   <div class="form-group">
+		<label class="control-label" for="prenom">Prenom:</label>
+		<input type="text" class="form-control" id="prenom" name="prenom" required="required">	
+	</div>
+		
+	<div class="form-group">
+		<label class="control-label" for="email">Email:</label>
+		<input type="email" class="form-control" id="email" name="email" required="required">	
+	</div>
+		
+	<div class="form-group">
+		<label class="control-label" for="numero">Numero:</label>
+		<input type="number" class="form-control" id="numero" name="numero" required="required">	
+	</div>
+	<div class="form-group">
+	<label class="control-label" for="message">Message:</label>
+    <textarea class="form-control" id="message" name="message"></textarea>
+    <button type="button" class="btn btn-primary">Primary</button>
+
+		
+	</form>
+	</div>
+</div>
+</div>
+
+@stop";s:4:"code";N;}}
