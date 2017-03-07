@@ -1,0 +1,6 @@
+plugin:
+    name: 'fred.sortiadom::lang.plugin.name'
+    description: 'fred.sortiadom::lang.plugin.description'
+    author: fred
+    icon: oc-icon-adjust
+    homepage: ''

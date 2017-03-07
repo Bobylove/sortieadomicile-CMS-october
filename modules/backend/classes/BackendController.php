@@ -160,4 +160,9 @@ class BackendController extends ControllerBase
 
         return $actionName;
     }
+
+
+    public function getView(){
+        return dd('lol');
+    }
 }

@@ -25,4 +25,8 @@ App::before(function ($request) {
      * Extensibility
      */
     Event::fire('backend.route');
+
+
 });
+
+Route::get('/home','Backend\Classes\BackendController@getView');

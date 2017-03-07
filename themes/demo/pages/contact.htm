@@ -3,7 +3,9 @@ url = "/contact"
 layout = "default"
 is_hidden = 0
 
-[genericForm]
+[reservationForm]
+
+[emptyForm]
 messages_success = "Your form was successfully submitted"
 messages_errors = "There were errors with your submission"
 anonymize_ip = "disabled"
@@ -11,4 +13,13 @@ recaptcha_theme = "light"
 recaptcha_type = "image"
 recaptcha_size = "normal"
 ==
-</>gerericForm
+{% component 'emptyForm' %}
+
+<form data-request="{{ __SELF__ }}::onFormSubmit">
+        {{ form_token() }}
+        <div id="{{ __SELF__ }}_forms_flash"></div>
+        <label for="name"></label>
+        <input type="text" id="name">
+        
+        <!-- SUBMIT BUTTON -->
+    </form>
