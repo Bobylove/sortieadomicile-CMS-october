@@ -1,4 +1,4 @@
-1488797819a:1:{s:11:"plugins.htm";a:9:{s:8:"fileName";s:11:"plugins.htm";s:7:"content";s:784:"title = "Plugin components"
+1488878273a:1:{s:11:"plugins.htm";a:9:{s:8:"fileName";s:11:"plugins.htm";s:7:"content";s:784:"title = "Plugin components"
 url = "/demo/plugins"
 layout = "default"
 
@@ -28,7 +28,7 @@ max = 3
 <div class="text-center">
     <p><a target="_blank" href="http://octobercms.com/docs" class="btn btn-lg btn-default">Learn more at October's Documentation</a></p>
 </div>
-";s:5:"mtime";i:1488797055;s:6:"markup";s:691:"<div class="jumbotron title-js">
+";s:5:"mtime";i:1488876088;s:6:"markup";s:691:"<div class="jumbotron title-js">
     <div class="container">
         <div class="row">
             <div class="col-8">
