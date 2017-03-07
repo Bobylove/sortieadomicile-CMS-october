@@ -1,0 +1,10 @@
+{
+    "name": "root/install-master",
+    "authors": [
+        {
+            "name": "Fred",
+            "email": "delon.frederic.pro.job@gmail.com"
+        }
+    ],
+    "require": {}
+}

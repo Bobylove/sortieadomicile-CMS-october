@@ -19,10 +19,10 @@ class __TwigTemplate_42d8486e07b2ccedab48c20a1e5da22e0afdededefc199382dc19c52d92
         echo "<div id=\"footer\">
     <div class=\"container\">
         <hr />
-        <p class=\"muted credit\">&copy; 2013 - ";
+        <p class=\"muted credit\">&copy; 2017 - ";
         // line 4
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
-        echo " Alexey Bobkov &amp; Samuel Georges.</p>
+        echo " Caroline Lamorthe &amp; Simplon.co.</p>
     </div>
 </div>";
     }
@@ -55,7 +55,7 @@ class __TwigTemplate_42d8486e07b2ccedab48c20a1e5da22e0afdededefc199382dc19c52d92
         return new Twig_Source("<div id=\"footer\">
     <div class=\"container\">
         <hr />
-        <p class=\"muted credit\">&copy; 2013 - {{ \"now\"|date(\"Y\") }} Alexey Bobkov &amp; Samuel Georges.</p>
+        <p class=\"muted credit\">&copy; 2017 - {{ \"now\"|date(\"Y\") }} Caroline Lamorthe &amp; Simplon.co.</p>
     </div>
 </div>", "/home/simplon/fred/PHP/october/install-master/themes/demo/partials/site/footer.htm", "");
     }
